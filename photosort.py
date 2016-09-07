@@ -107,7 +107,7 @@ if __name__ == "__main__":
                 # target dir under the subdir <year>/<month>/<day>/.
                 if verbose:
                     print "Date for %s is %s" % (sourceFilePath, date)
-                    year, month, day = date
+                year, month, day = date
                 targetFilePath = targetBasePath
                 targetFilePath = os.path.join(targetFilePath, year)
                 targetFilePath = os.path.join(targetFilePath, month)
